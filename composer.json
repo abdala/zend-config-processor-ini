@@ -1,0 +1,22 @@
+{
+  "name": "la/zend-config-processor-ini",
+  "type": "library",
+  "description": "Parse php settings",
+  "keywords": ["zend", "config", "processor", "ini"],
+  "license": "MIT",
+  "authors": [
+    {"name": "Abdala Cerqueira", "email": "abdala.cerqueira@gmail.com"}
+  ],
+  "require": {
+    "zendframework/zend-config": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "La\\Config\\": "src",
+      "La\\Config\\Test\\": "tests/src"
+    }
+  }
+}
